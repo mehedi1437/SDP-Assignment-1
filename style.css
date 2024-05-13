@@ -1,0 +1,149 @@
+/* body{
+    background-color: black;
+} */
+.nav-logo{
+  width: 100px;
+  height: 100px;
+}
+.nav-btn{
+  background-color : 0DCAF0;
+  color: aqua;
+  border: none;
+  border-radius: 3px;
+}
+.banner-img{
+  width: 300px;
+  height: 430px;
+}
+.banner-icon{
+  list-style: none;
+  color: aqua;
+}
+.container-1-img{
+  width: 250px;
+}
+.container-2-img{
+  width: 250px;
+}
+.container-left{
+  width: 460px;
+  height: 290px;
+}
+.carousel-img{
+  width: 400px;
+  height: 250px;
+}
+.container-1{
+  margin: auto;
+  width: 930px;
+}
+.container-2{
+  margin: auto;
+  width: 930px;
+}
+.edu{
+  width: 1070px;
+  height: 675px;
+}
+.contact{
+  width: 665px;
+  height: 365px;
+  border: 1px solid rgb(131, 137, 141);
+  box-shadow: 5px 5px 5px 2px grey;
+}
+.contact-input{
+  border: 1px solid gray;
+  padding: 10px;
+  background-color: black;
+}
+.contact-input-width{
+  width: 40%;
+}
+.footer-container{
+  height: 200px;
+}
+
+@media only screen and (min-width:300px) and (max-width:767px) {
+  .nav-logo{
+    width: 50px;
+    height: 50px;
+    margin: 20px 220px;
+  }
+  .nav-r{
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .banner{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .banner-img{
+    margin-top: 25px;
+  }
+
+  .container-1{
+    width: 90vw;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-2{
+    width: 90vw;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .edu{
+    margin-top: 20px;
+    flex-direction: column;
+    width: 90vw;
+  }
+  .text-center{
+    margin: 20px;
+  }
+
+  .contact{
+    width: 90vw;
+  }
+
+}
+
+@media only screen and (min-width:768px) and (max-width:992px) {
+  .nav-logo{
+    width: 50px;
+    height: 50px;
+    margin: 20px 220px;
+  }
+  .nav-r{
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  .banner{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .container-1{
+    width: 90vw;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-2{
+    width: 90vw;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .edu{
+    margin-top: 20px;
+    flex-direction: column;
+    width: 90vw;
+    flex-wrap: nowrap;
+  }
+  .text-center{
+    margin-top: 20px;
+  }
+  
+}
